@@ -1,6 +1,8 @@
 package com.company;
 
+import javax.swing.*;
 import java.util.ArrayList;
+import java.util.Scanner;
 
 
 public class Principal {
@@ -20,30 +22,30 @@ public class Principal {
 	
 	private static int obtenerNroJugadoresTotales () {
 		
-		//implementar el ingreso por pantalla
-		
-		return 20;
+		//implementar el ingreso por pantalla\
+		int i = Integer.parseInt(JOptionPane.showInputDialog("ingrese total de jugadores"));
+		return i;
 	}
 	
 	private static int obtenerPosicionInicial () {
 		
 		//implementar el ingreso por pantalla
-		
-		return 2;
+		int i = Integer.parseInt(JOptionPane.showInputDialog("ingrese posicion inicial"));
+		return i;
 	}
 	
 	private static int obtenerPosicionJugadorGanador () {
 		
 		//implementar el ingreso por pantalla
-		
-		return 2;
+		int i = Integer.parseInt(JOptionPane.showInputDialog("ingrese posicion jugador ganado"));
+		return i;
 	}
-	
+
 	private static int obtenerMaximaPosicionASaltar () {
 		
 		//implementar el ingreso por pantalla
-		
-		return 6;
+		int i = Integer.parseInt(JOptionPane.showInputDialog("ingrese cantidad de saltos maximo"));
+		return i;
 	}
 	
 	
